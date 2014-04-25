@@ -1,0 +1,811 @@
+TTest
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Info.plist /Users/arnoldmendoza/test/platforms/ios/Test/Test-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Test/Resources/icons/icon-76.png build/emulator/Test.app/icon-76.png
+cCpResource Test/Resources/icons/icon-40@2x.png build/emulator/Test.app/icon-40@2x.png
+cCpResource Test/Resources/icons/icon-72.png build/emulator/Test.app/icon-72.png
+cCpResource Test/Resources/icons/icon.png build/emulator/Test.app/icon.png
+cCpResource Test/Resources/icons/icon@2x.png build/emulator/Test.app/icon@2x.png
+cCopyStringsFile /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/en.lproj/Localizable.strings Test/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.xib
+cCpResource Test/Resources/icons/icon-50.png build/emulator/Test.app/icon-50.png
+cCpResource Test/Resources/icons/icon-60@2x.png build/emulator/Test.app/icon-60@2x.png
+cCopyStringsFile /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/de.lproj/Localizable.strings Test/Resources/de.lproj/Localizable.strings
+cCpResource Test/Resources/icons/icon-small.png build/emulator/Test.app/icon-small.png
+cCpResource Test/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Test.app/Default-Landscape@2x~ipad.png
+cCpResource Test/Resources/splash/Default-Landscape~ipad.png build/emulator/Test.app/Default-Landscape~ipad.png
+cCpResource Test/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Test.app/Default-Portrait@2x~ipad.png
+cCpResource Test/Resources/icons/icon-small@2x.png build/emulator/Test.app/icon-small@2x.png
+cCpResource Test/Resources/splash/Default-Portrait~ipad.png build/emulator/Test.app/Default-Portrait~ipad.png
+cCpResource Test/Resources/icons/icon-40.png build/emulator/Test.app/icon-40.png
+cCpResource Test/Resources/splash/Default@2x~iphone.png build/emulator/Test.app/Default@2x~iphone.png
+cCpResource Test/Resources/icons/icon-60.png build/emulator/Test.app/icon-60.png
+cCpResource Test/Resources/splash/Default~iphone.png build/emulator/Test.app/Default~iphone.png
+cCpResource Test/Resources/splash/Default-568h@2x~iphone.png build/emulator/Test.app/Default-568h@2x~iphone.png
+cCpResource Test/Resources/icons/icon-50@2x.png build/emulator/Test.app/icon-50@2x.png
+cCpResource Test/Resources/icons/icon-76@2x.png build/emulator/Test.app/icon-76@2x.png
+cCpResource Test/Resources/icons/icon-72@2x.png build/emulator/Test.app/icon-72@2x.png
+cProcessPCH /var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch.pch Test/Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/AppDelegate.o /Users/arnoldmendoza/test/platforms/ios/Test/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o /Users/arnoldmendoza/test/platforms/ios/Test/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o /Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Test normal i386
+cGenerateDSYMFile /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app.dSYM /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Test
+cTouch /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053548B850000000000000198
+t1398049669
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053283FF900000000000003B4
+t1395146745
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053283FFD000000000000019E
+t1395146749
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000053283FFE0000000000059340
+t1395146750
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053548AB80000000000446820
+t1398049464
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000053283FFE00000000000F1A80
+t1395146750
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005328400000000000001BE790
+t1395146752
+s1828752
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Classes/AppDelegate.m
+c000000005358E3A3000000000000139F
+t1398334371
+s5023
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.m
+c000000005358E3A30000000000001265
+t1398334371
+s4709
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.xib
+c000000005358E3A30000000000001759
+t1398334371
+s5977
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/de.lproj/Localizable.strings
+c000000005358E3A300000000000004C0
+t1398334371
+s1216
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/en.lproj/Localizable.strings
+c000000005358E3A300000000000004AB
+t1398334371
+s1195
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-40.png
+c000000005358E3A30000000000000FF2
+t1398334371
+s4082
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-40@2x.png
+c000000005358E3A30000000000001CF3
+t1398334371
+s7411
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-50.png
+c000000005358E3A3000000000000130A
+t1398334371
+s4874
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-50@2x.png
+c000000005358E3A3000000000000258B
+t1398334371
+s9611
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-60.png
+c000000005358E3A300000000000016B3
+t1398334371
+s5811
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-60@2x.png
+c000000005358E3A30000000000002E94
+t1398334371
+s11924
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-72.png
+c000000005358E3A30000000000001350
+t1398334371
+s4944
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-72@2x.png
+c000000005358E3A30000000000002DBA
+t1398334371
+s11706
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-76.png
+c000000005358E3A30000000000001B71
+t1398334371
+s7025
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-76@2x.png
+c000000005358E3A30000000000003B9E
+t1398334371
+s15262
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-small.png
+c000000005358E3A30000000000000CDE
+t1398334371
+s3294
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-small@2x.png
+c000000005358E3A300000000000015E8
+t1398334371
+s5608
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon.png
+c000000005358E3A30000000000000F3E
+t1398334371
+s3902
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon@2x.png
+c000000005358E3A30000000000001EBD
+t1398334371
+s7869
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default-568h@2x~iphone.png
+c000000005358E3A300000000000085B1
+t1398334371
+s34225
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005358E3A30000000000033D0A
+t1398334371
+s212234
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default-Landscape~ipad.png
+c000000005358E3A300000000000166A2
+t1398334371
+s91810
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005358E3A30000000000033F7C
+t1398334371
+s212860
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default-Portrait~ipad.png
+c000000005358E3A30000000000016641
+t1398334371
+s91713
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default@2x~iphone.png
+c000000005358E3A30000000000007323
+t1398334371
+s29475
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default~iphone.png
+c000000005358E3A3000000000000289A
+t1398334371
+s10394
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Test-Info.plist
+c000000005358E3BA0000000000000A0C
+t1398334394
+s2572
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/Test-Prefix.pch
+c000000005358E3A300000000000003B9
+t1398334371
+s953
+
+N/Users/arnoldmendoza/test/platforms/ios/Test/main.m
+c000000005358E3A30000000000000456
+t1398334371
+s1110
+
+N/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/AppDelegate.o
+t1398334415
+s73908
+
+N/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o
+t1398334415
+s51492
+
+N/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/Test.LinkFileList
+c000000005358E3CA0000000000000174
+t1398334410
+s372
+
+N/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o
+t1398334414
+s2924
+
+N/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Script-304B58A110DAC018002A0835.sh
+c000000005358E3CA000000000000002D
+t1398334410
+s45
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app
+t1398334415
+s1020
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app.dSYM
+t2
+s0
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default-568h@2x~iphone.png
+t1398334411
+s34225
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default-Landscape@2x~ipad.png
+t1398334411
+s212234
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default-Landscape~ipad.png
+t1398334411
+s91810
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default-Portrait@2x~ipad.png
+t1398334411
+s212860
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default-Portrait~ipad.png
+t1398334411
+s91713
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default@2x~iphone.png
+t1398334411
+s29475
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default~iphone.png
+t1398334411
+s10394
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Info.plist
+t1398334410
+s1268
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/MainViewController.nib
+t1398334414
+s836
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/PkgInfo
+t2
+s0
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Test
+t1398334415
+s271588
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/de.lproj/Localizable.strings
+t1398334411
+s280
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/en.lproj/Localizable.strings
+t1398334411
+s166
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-40.png
+t1398334411
+s4082
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-40@2x.png
+t1398334411
+s7411
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-50.png
+t1398334411
+s4874
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-50@2x.png
+t1398334411
+s9611
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-60.png
+t1398334411
+s5811
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-60@2x.png
+t1398334411
+s11924
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-72.png
+t1398334411
+s4944
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-72@2x.png
+t1398334411
+s11706
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-76.png
+t1398334411
+s7025
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-76@2x.png
+t1398334411
+s15262
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-small.png
+t1398334411
+s3294
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-small@2x.png
+t1398334411
+s5608
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon.png
+t1398334411
+s3902
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon@2x.png
+t1398334411
+s7869
+
+N/Users/arnoldmendoza/test/platforms/ios/build/emulator/libCordova.a
+c000000005358E3CA00000000000D34B8
+t1398334410
+s865464
+
+N/var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch.pch
+t1398334414
+s5376088
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies42cff24a1b09b941^40a3f84a1b09b941^---0#1#1#--18"Check dependencies36"1391899C-9EC6-43E0-9B34-ECE7FF7F872C-
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/AppDelegate.o /Users/arnoldmendoza/test/platforms/ios/Test/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420027214.964887
+e420027215.031208
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/AppDelegate.o
+x/Users/arnoldmendoza/test/platforms/ios/Test/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/arnoldmendoza/test/platforms/ios/Test/Classes/AppDelegate.m
+d/Users/arnoldmendoza/test/platforms/ios/Test/Classes/AppDelegate.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/arnoldmendoza/test/platforms/ios/Test/Classes/AppDelegate.m203"[1mCompileC[0m build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/AppDelegate.o [1mTest/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler261bf74e1b09b941^82fd074f1b09b941^---0#0#1#-19%DVTDocumentLocation2@82"file://localhost/Users/arnoldmendoza/test/platforms/ios/Test/Classes/AppDelegate.m0000000000000000^3872"[1mCompileC[0m build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/AppDelegate.o [1mTest/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/arnoldmendoza/test/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=98 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/emulator/include -I/Users/arnoldmendoza/test/platforms/ios/build/emulator/usr/local/lib/include -I/Users/arnoldmendoza/test/platforms/ios/build/UninstalledProducts/include -I/Users/arnoldmendoza/test/platforms/ios/build/emulator -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Users/arnoldmendoza/test/platforms/ios/build/emulator -include /var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch -MMD -MT dependencies -MF /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/AppDelegate.dia -c /Users/arnoldmendoza/test/platforms/ios/Test/Classes/AppDelegate.m -o /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/AppDelegate.o36"B3143CD0-A046-4D67-89A9-CA9D6E70598A-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o /Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420027214.964902
+e420027215.019385
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o
+x/Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.m
+d/Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.m217"[1mCompileC[0m build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o [1mTest/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileref1ff74e1b09b941^49f6044f1b09b941^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.m0000000000000000^3914"[1mCompileC[0m build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o [1mTest/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/arnoldmendoza/test/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=98 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/emulator/include -I/Users/arnoldmendoza/test/platforms/ios/build/emulator/usr/local/lib/include -I/Users/arnoldmendoza/test/platforms/ios/build/UninstalledProducts/include -I/Users/arnoldmendoza/test/platforms/ios/build/emulator -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Users/arnoldmendoza/test/platforms/ios/build/emulator -include /var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch -MMD -MT dependencies -MF /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.dia -c /Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.m -o /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o36"463C7207-385F-408A-9CAB-07B015C5D78B-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o /Users/arnoldmendoza/test/platforms/ios/Test/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420027214.964892
+e420027214.988650
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o
+x/Users/arnoldmendoza/test/platforms/ios/Test/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/arnoldmendoza/test/platforms/ios/Test/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/arnoldmendoza/test/platforms/ios/Test/main.m181"[1mCompileC[0m build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o [1mTest/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler581ff74e1b09b941^3b18fd4e1b09b941^---0#0#1#-19%DVTDocumentLocation2@67"file://localhost/Users/arnoldmendoza/test/platforms/ios/Test/main.m0000000000000000^3814"[1mCompileC[0m build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o [1mTest/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/arnoldmendoza/test/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=98 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/emulator/include -I/Users/arnoldmendoza/test/platforms/ios/build/emulator/usr/local/lib/include -I/Users/arnoldmendoza/test/platforms/ios/build/UninstalledProducts/include -I/Users/arnoldmendoza/test/platforms/ios/build/emulator -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Users/arnoldmendoza/test/platforms/ios/build/emulator -include /var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch -MMD -MT dependencies -MF /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.dia -c /Users/arnoldmendoza/test/platforms/ios/Test/main.m -o /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o36"DC58BD85-DA73-493C-89BA-76E1D797F7B1-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCompileXIB /Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.xib
+s420027211.048802
+e420027214.610237
+r1
+xCompileXIB
+x/Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.xib
+o2014-04-24 18:13:34.078 Interface Builder Cocoa Touch Tool[58401:303] CFPreferences: user home directory at file:///Users/arnoldmendoza/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compiling /Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.xib62"[1mCompileXIB[0m [1mTest/Classes/MainViewController.xib[0mfe9a0c4b1b09b941^8a399c4e1b09b941^-238"2014-04-24 18:13:34.078 Interface Builder Cocoa Touch Tool[58401:303] CFPreferences: user home directory at file:///Users/arnoldmendoza/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.xib0000000000000000^1208"[1mCompileXIB[0m [1mTest/Classes/MainViewController.xib[0m    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/MainViewController.nib /Users/arnoldmendoza/test/platforms/ios/Test/Classes/MainViewController.xib36"4968F526-AA1D-4FC5-9886-8825FDA4C7A2-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCopyStringsFile /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/de.lproj/Localizable.strings Test/Resources/de.lproj/Localizable.strings
+s420027211.051978
+e420027211.060710
+r1
+xCopyStringsFile
+x/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/de.lproj/Localizable.strings
+xTest/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy Test/Resources/de.lproj/Localizable.strings120"[1mCopyStringsFile[0m build/emulator/Test.app/de.lproj/Localizable.strings Test/Resources/de.lproj/Localizable.strings815d0d4b1b09b941^158b0f4b1b09b941^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/arnoldmendoza/test/platforms/ios/Test/Resources/de.lproj/Localizable.strings0000000000000000^1008"[1mCopyStringsFile[0m build/emulator/Test.app/de.lproj/Localizable.strings Test/Resources/de.lproj/Localizable.strings    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/de.lproj -- Test/Resources/de.lproj/Localizable.strings36"1D905A27-A78C-4BD6-AD0A-F7DC82FB0702-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCopyStringsFile /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/en.lproj/Localizable.strings Test/Resources/en.lproj/Localizable.strings
+s420027211.048571
+e420027211.053117
+r1
+xCopyStringsFile
+x/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/en.lproj/Localizable.strings
+xTest/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy Test/Resources/en.lproj/Localizable.strings120"[1mCopyStringsFile[0m build/emulator/Test.app/en.lproj/Localizable.strings Test/Resources/en.lproj/Localizable.strings82900c4b1b09b941^cc990d4b1b09b941^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/arnoldmendoza/test/platforms/ios/Test/Resources/en.lproj/Localizable.strings0000000000000000^1008"[1mCopyStringsFile[0m build/emulator/Test.app/en.lproj/Localizable.strings Test/Resources/en.lproj/Localizable.strings    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/en.lproj -- Test/Resources/en.lproj/Localizable.strings36"AB5BF3FE-454D-434B-90D5-3D917615320A-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-40.png build/emulator/Test.app/icon-40.png
+s420027211.061861
+e420027211.068022
+r1
+xCpResource
+xTest/Resources/icons/icon-40.png
+xbuild/emulator/Test.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Test.app/icon-40.png87"[1mCpResource[0m Test/Resources/icons/icon-40.png build/emulator/Test.app/icon-40.png58e40f4b1b09b941^596a114b1b09b941^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-40.png00389c0adeffdf42^1014"[1mCpResource[0m Test/Resources/icons/icon-40.png build/emulator/Test.app/icon-40.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-40.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"05A33BB7-FEC2-4D0B-BF57-156A4340BB66-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-40@2x.png build/emulator/Test.app/icon-40@2x.png
+s420027211.048514
+e420027211.051719
+r1
+xCpResource
+xTest/Resources/icons/icon-40@2x.png
+xbuild/emulator/Test.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Test.app/icon-40@2x.png93"[1mCpResource[0m Test/Resources/icons/icon-40@2x.png build/emulator/Test.app/icon-40@2x.png218f0c4b1b09b941^073f0d4b1b09b941^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-40@2x.png00389c0adeffdf42^1023"[1mCpResource[0m Test/Resources/icons/icon-40@2x.png build/emulator/Test.app/icon-40@2x.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-40@2x.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"B118BE74-E0B1-4F99-9C7A-398FFAFB317F-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-50.png build/emulator/Test.app/icon-50.png
+s420027211.049019
+e420027211.058333
+r1
+xCpResource
+xTest/Resources/icons/icon-50.png
+xbuild/emulator/Test.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Test.app/icon-50.png87"[1mCpResource[0m Test/Resources/icons/icon-50.png build/emulator/Test.app/icon-50.pngb2a00c4b1b09b941^7cf00e4b1b09b941^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-50.png00389c0adeffdf42^1014"[1mCpResource[0m Test/Resources/icons/icon-50.png build/emulator/Test.app/icon-50.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-50.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"6AAE7512-FC5F-40AA-B30D-0B58FEEFA74B-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-50@2x.png build/emulator/Test.app/icon-50@2x.png
+s420027211.067301
+e420027211.073660
+r1
+xCpResource
+xTest/Resources/icons/icon-50@2x.png
+xbuild/emulator/Test.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Test.app/icon-50@2x.png93"[1mCpResource[0m Test/Resources/icons/icon-50@2x.png build/emulator/Test.app/icon-50@2x.pngf147114b1b09b941^0adc124b1b09b941^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-50@2x.png00389c0adeffdf42^1023"[1mCpResource[0m Test/Resources/icons/icon-50@2x.png build/emulator/Test.app/icon-50@2x.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-50@2x.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"F5993F47-A5A1-4E4D-9B35-CEE36341BF5F-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-60.png build/emulator/Test.app/icon-60.png
+s420027211.064769
+e420027211.070259
+r1
+xCpResource
+xTest/Resources/icons/icon-60.png
+xbuild/emulator/Test.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Test.app/icon-60.png87"[1mCpResource[0m Test/Resources/icons/icon-60.png build/emulator/Test.app/icon-60.pnga0a4104b1b09b941^26fd114b1b09b941^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-60.png00389c0adeffdf42^1014"[1mCpResource[0m Test/Resources/icons/icon-60.png build/emulator/Test.app/icon-60.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-60.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"4F370F90-B99A-4F17-AF2A-6E1E5D427C1F-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-60@2x.png build/emulator/Test.app/icon-60@2x.png
+s420027211.051845
+e420027211.059370
+r1
+xCpResource
+xTest/Resources/icons/icon-60@2x.png
+xbuild/emulator/Test.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Test.app/icon-60@2x.png93"[1mCpResource[0m Test/Resources/icons/icon-60@2x.png build/emulator/Test.app/icon-60@2x.png69570d4b1b09b941^1e340f4b1b09b941^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-60@2x.png00389c0adeffdf42^1023"[1mCpResource[0m Test/Resources/icons/icon-60@2x.png build/emulator/Test.app/icon-60@2x.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-60@2x.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"B1179EAE-C7E8-455D-9EC7-40EE8688B7C5-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-72.png build/emulator/Test.app/icon-72.png
+s420027211.048519
+e420027211.053853
+r1
+xCpResource
+xTest/Resources/icons/icon-72.png
+xbuild/emulator/Test.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Test.app/icon-72.png87"[1mCpResource[0m Test/Resources/icons/icon-72.png build/emulator/Test.app/icon-72.pngdb8b0c4b1b09b941^e6c90d4b1b09b941^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-72.png00389c0adeffdf42^1014"[1mCpResource[0m Test/Resources/icons/icon-72.png build/emulator/Test.app/icon-72.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-72.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"E1A00B4F-D030-4D97-972D-950718BBBF7C-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-72@2x.png build/emulator/Test.app/icon-72@2x.png
+s420027211.070370
+e420027211.075984
+r1
+xCpResource
+xTest/Resources/icons/icon-72@2x.png
+xbuild/emulator/Test.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Test.app/icon-72@2x.png93"[1mCpResource[0m Test/Resources/icons/icon-72@2x.png build/emulator/Test.app/icon-72@2x.pngbe14124b1b09b941^3674134b1b09b941^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-72@2x.png00389c0adeffdf42^1023"[1mCpResource[0m Test/Resources/icons/icon-72@2x.png build/emulator/Test.app/icon-72@2x.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-72@2x.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"ABE2EEF2-BDD0-4E4A-8B65-CD776F733844-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-76.png build/emulator/Test.app/icon-76.png
+s420027211.048509
+e420027211.050681
+r1
+xCpResource
+xTest/Resources/icons/icon-76.png
+xbuild/emulator/Test.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Test.app/icon-76.png87"[1mCpResource[0m Test/Resources/icons/icon-76.png build/emulator/Test.app/icon-76.pngb6840c4b1b09b941^d3f90c4b1b09b941^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-76.png00389c0adeffdf42^1014"[1mCpResource[0m Test/Resources/icons/icon-76.png build/emulator/Test.app/icon-76.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-76.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"03211F25-1B5B-4CA8-A578-B0FA77994E75-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-76@2x.png build/emulator/Test.app/icon-76@2x.png
+s420027211.069171
+e420027211.074844
+r1
+xCpResource
+xTest/Resources/icons/icon-76@2x.png
+xbuild/emulator/Test.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Test.app/icon-76@2x.png93"[1mCpResource[0m Test/Resources/icons/icon-76@2x.png build/emulator/Test.app/icon-76@2x.png00c8114b1b09b941^9129134b1b09b941^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-76@2x.png00389c0adeffdf42^1023"[1mCpResource[0m Test/Resources/icons/icon-76@2x.png build/emulator/Test.app/icon-76@2x.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-76@2x.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"682F527E-452F-43C7-9A79-6DF15D4E8844-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-small.png build/emulator/Test.app/icon-small.png
+s420027211.054276
+e420027211.061599
+r1
+xCpResource
+xTest/Resources/icons/icon-small.png
+xbuild/emulator/Test.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/Test.app/icon-small.png93"[1mCpResource[0m Test/Resources/icons/icon-small.png build/emulator/Test.app/icon-small.png76fa0d4b1b09b941^69c50f4b1b09b941^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-small.png00389c0adeffdf42^1023"[1mCpResource[0m Test/Resources/icons/icon-small.png build/emulator/Test.app/icon-small.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-small.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"1ACA4F87-C685-4D38-8038-B3BB3F41D8E3-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon-small@2x.png build/emulator/Test.app/icon-small@2x.png
+s420027211.059513
+e420027211.066962
+r1
+xCpResource
+xTest/Resources/icons/icon-small@2x.png
+xbuild/emulator/Test.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/Test.app/icon-small@2x.png99"[1mCpResource[0m Test/Resources/icons/icon-small@2x.png build/emulator/Test.app/icon-small@2x.pngc5530f4b1b09b941^e124114b1b09b941^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon-small@2x.png00389c0adeffdf42^1032"[1mCpResource[0m Test/Resources/icons/icon-small@2x.png build/emulator/Test.app/icon-small@2x.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon-small@2x.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"9C9B8ECC-0FB6-4D7B-9D1E-2638DFC53C76-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon.png build/emulator/Test.app/icon.png
+s420027211.048549
+e420027211.054934
+r1
+xCpResource
+xTest/Resources/icons/icon.png
+xbuild/emulator/Test.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/emulator/Test.app/icon.png81"[1mCpResource[0m Test/Resources/icons/icon.png build/emulator/Test.app/icon.pnga1850c4b1b09b941^ae100e4b1b09b941^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon.png00389c0adeffdf42^1005"[1mCpResource[0m Test/Resources/icons/icon.png build/emulator/Test.app/icon.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"EB10E6BE-AC57-48D1-9116-96519C386A64-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/icons/icon@2x.png build/emulator/Test.app/icon@2x.png
+s420027211.048567
+e420027211.056106
+r1
+xCpResource
+xTest/Resources/icons/icon@2x.png
+xbuild/emulator/Test.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/Test.app/icon@2x.png87"[1mCpResource[0m Test/Resources/icons/icon@2x.png build/emulator/Test.app/icon@2x.png9e950c4b1b09b941^e65c0e4b1b09b941^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/icon@2x.png00389c0adeffdf42^1014"[1mCpResource[0m Test/Resources/icons/icon@2x.png build/emulator/Test.app/icon@2x.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/icons/icon@2x.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"522C3696-1962-4BC6-A686-AC1C5E0A2F74-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/splash/Default-568h@2x~iphone.png build/emulator/Test.app/Default-568h@2x~iphone.png
+s420027211.067162
+e420027211.072431
+r1
+xCpResource
+xTest/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/Test.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/Test.app/Default-568h@2x~iphone.png118"[1mCpResource[0m Test/Resources/splash/Default-568h@2x~iphone.png build/emulator/Test.app/Default-568h@2x~iphone.png3540114b1b09b941^4c8b124b1b09b941^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default-568h@2x~iphone.png00389c0adeffdf42^1061"[1mCpResource[0m Test/Resources/splash/Default-568h@2x~iphone.png build/emulator/Test.app/Default-568h@2x~iphone.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default-568h@2x~iphone.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"4879AA12-767D-41DA-A7DB-58B5C0714030-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Test.app/Default-Landscape@2x~ipad.png
+s420027211.054398
+e420027211.063594
+r1
+xCpResource
+xTest/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/Test.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/Test.app/Default-Landscape@2x~ipad.png124"[1mCpResource[0m Test/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Test.app/Default-Landscape@2x~ipad.pnge3fc0d4b1b09b941^0648104b1b09b941^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default-Landscape@2x~ipad.png00389c0adeffdf42^1070"[1mCpResource[0m Test/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Test.app/Default-Landscape@2x~ipad.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default-Landscape@2x~ipad.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"B00100BD-0EE6-4EB4-AD6F-258DD14D0CE3-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/splash/Default-Landscape~ipad.png build/emulator/Test.app/Default-Landscape~ipad.png
+s420027211.056130
+e420027211.063756
+r1
+xCpResource
+xTest/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/Test.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/Test.app/Default-Landscape~ipad.png118"[1mCpResource[0m Test/Resources/splash/Default-Landscape~ipad.png build/emulator/Test.app/Default-Landscape~ipad.pngf86f0e4b1b09b941^c652104b1b09b941^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default-Landscape~ipad.png00389c0adeffdf42^1061"[1mCpResource[0m Test/Resources/splash/Default-Landscape~ipad.png build/emulator/Test.app/Default-Landscape~ipad.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default-Landscape~ipad.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"59C4779A-CA60-43B8-ABE7-0BCA97DC257E-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Test.app/Default-Portrait@2x~ipad.png
+s420027211.057314
+e420027211.085173
+r1
+xCpResource
+xTest/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/Test.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/Test.app/Default-Portrait@2x~ipad.png122"[1mCpResource[0m Test/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Test.app/Default-Portrait@2x~ipad.png5ebd0e4b1b09b941^20d0154b1b09b941^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default-Portrait@2x~ipad.png00389c0adeffdf42^1067"[1mCpResource[0m Test/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Test.app/Default-Portrait@2x~ipad.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default-Portrait@2x~ipad.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"D0D1CC63-6447-4276-A224-D46C0F8E649B-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/splash/Default-Portrait~ipad.png build/emulator/Test.app/Default-Portrait~ipad.png
+s420027211.059592
+e420027211.066019
+r1
+xCpResource
+xTest/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/Test.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/Test.app/Default-Portrait~ipad.png116"[1mCpResource[0m Test/Resources/splash/Default-Portrait~ipad.png build/emulator/Test.app/Default-Portrait~ipad.pnga0500f4b1b09b941^e2e6104b1b09b941^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default-Portrait~ipad.png00389c0adeffdf42^1058"[1mCpResource[0m Test/Resources/splash/Default-Portrait~ipad.png build/emulator/Test.app/Default-Portrait~ipad.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default-Portrait~ipad.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"8BDBD206-77A6-466F-BC5C-1E89906E3F2E-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/splash/Default@2x~iphone.png build/emulator/Test.app/Default@2x~iphone.png
+s420027211.062028
+e420027211.069187
+r1
+xCpResource
+xTest/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/Test.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/emulator/Test.app/Default@2x~iphone.png108"[1mCpResource[0m Test/Resources/splash/Default@2x~iphone.png build/emulator/Test.app/Default@2x~iphone.png9df30f4b1b09b941^c3b6114b1b09b941^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default@2x~iphone.png00389c0adeffdf42^1046"[1mCpResource[0m Test/Resources/splash/Default@2x~iphone.png build/emulator/Test.app/Default@2x~iphone.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default@2x~iphone.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"90A12E11-F9D2-4C0C-96D0-AA74B051D0DC-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CCpResource Test/Resources/splash/Default~iphone.png build/emulator/Test.app/Default~iphone.png
+s420027211.064850
+e420027211.071354
+r1
+xCpResource
+xTest/Resources/splash/Default~iphone.png
+xbuild/emulator/Test.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/Test.app/Default~iphone.png102"[1mCpResource[0m Test/Resources/splash/Default~iphone.png build/emulator/Test.app/Default~iphone.pnge3a8104b1b09b941^8544124b1b09b941^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Default~iphone.png00389c0adeffdf42^1037"[1mCpResource[0m Test/Resources/splash/Default~iphone.png build/emulator/Test.app/Default~iphone.png    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/arnoldmendoza/test/platforms/ios/Test/Resources/splash/Default~iphone.png /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"E286260B-81A7-459A-850E-C8E56CA00789-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CGenerateDSYMFile /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app.dSYM /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Test
+s420027215.126339
+e420027215.161605
+r1
+xGenerateDSYMFile
+x/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app.dSYM
+x/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Test
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Generate /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app.dSYM90"[1mGenerateDSYMFile[0m [1mbuild/emulator/Test.app.dSYM[0m build/emulator/Test.app/Testd769204f1b09b941^0b61294f1b09b941^---0#0#1#-19%DVTDocumentLocation2@84"file://localhost/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app.dSYM00389c0adeffdf42^1009"[1mGenerateDSYMFile[0m [1mbuild/emulator/Test.app.dSYM[0m build/emulator/Test.app/Test    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Test -o /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app.dSYM36"6B8B337B-6DDB-496E-8A16-1839FC495139-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CLd /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Test normal i386
+s420027215.039763
+e420027215.117810
+r1
+xLd
+x/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Test
+xnormal
+xi386
+d/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/Test.LinkFileList
+d/Users/arnoldmendoza/test/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o
+d/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/AppDelegate.o
+d/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Link /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Test51"[1mLd[0m build/emulator/Test.app/Test normal i386aa430a4f1b09b941^0b2a1e4f1b09b941^---0#0#1#--2008"[1mLd[0m build/emulator/Test.app/Test normal i386    cd /Users/arnoldmendoza/test/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/arnoldmendoza/test/platforms/ios/build/emulator -F/Users/arnoldmendoza/test/platforms/ios/build/emulator -filelist /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/Test.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/arnoldmendoza/test/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework AssetsLibrary /Users/arnoldmendoza/test/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/Test_dependency_info.dat -o /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Test36"705D59FD-FE58-4C78-BDAB-F908D9A104E4-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CPhaseScriptExecution Copy\ www\ directory /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Script-304B58A110DAC018002A0835.sh
+s420027210.985550
+e420027211.040787
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.031s
+ouser	0m0.013s
+osys	0m0.016s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'134"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Test.build/Debug-iphonesimulator/Test.build/Script-304B58A110DAC018002A0835.sh61e1fc4a1b09b941^37710a4b1b09b941^-42"real	0m0.031suser	0m0.013ssys	0m0.016s3(21%IDEActivityLogMessage2@14"real	0m0.031s-420027211#1#14#-0#-----2@14"user	0m0.013s-420027211#15#14#-0#-----2@13"sys	0m0.016s-420027211#29#13#-0#-----0#0#1#--322"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Test.build/Debug-iphonesimulator/Test.build/Script-304B58A110DAC018002A0835.sh    cd /Users/arnoldmendoza/test/platforms/ios    /bin/sh -c /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Script-304B58A110DAC018002A0835.sh36"7A88501D-FFB7-4034-8FDD-27C6933316CC-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CProcessInfoPlistFile /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Info.plist /Users/arnoldmendoza/test/platforms/ios/Test/Test-Info.plist
+s420027210.973214
+e420027210.976272
+r1
+xProcessInfoPlistFile
+x/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Info.plist
+x/Users/arnoldmendoza/test/platforms/ios/Test/Test-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Process /Users/arnoldmendoza/test/platforms/ios/Test/Test-Info.plist92"[1mProcessInfoPlistFile[0m build/emulator/Test.app/Info.plist [1mTest/Test-Info.plist[0m9f3bf94a1b09b941^f6ecf94a1b09b941^---0#0#1#-19%DVTDocumentLocation2@76"file://localhost/Users/arnoldmendoza/test/platforms/ios/Test/Test-Info.plist0000000000000000^1084"[1mProcessInfoPlistFile[0m build/emulator/Test.app/Info.plist [1mTest/Test-Info.plist[0m    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    builtin-infoPlistUtility /Users/arnoldmendoza/test/platforms/ios/Test/Test-Info.plist -genpkginfo /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app/Info.plist36"F163D02F-C68F-4514-8179-085A838E4912-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CProcessPCH /var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch.pch Test/Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420027214.619753
+e420027214.956507
+r1
+xProcessPCH
+x/var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch.pch
+xTest/Test-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/arnoldmendoza/test/platforms/ios/Test/Test-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Test/Test-Prefix.pch286"[1mProcessPCH[0m /var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch.pch Test/Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera8c39e4e1b09b941^d7ddf44e1b09b941^---0#0#1#-19%DVTDocumentLocation2@76"file://localhost/Users/arnoldmendoza/test/platforms/ios/Test/Test-Prefix.pch0000000000000000^3933"[1mProcessPCH[0m /var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch.pch Test/Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/arnoldmendoza/test/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=98 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Users/arnoldmendoza/test/platforms/ios/build/emulator/include -I/Users/arnoldmendoza/test/platforms/ios/build/emulator/usr/local/lib/include -I/Users/arnoldmendoza/test/platforms/ios/build/UninstalledProducts/include -I/Users/arnoldmendoza/test/platforms/ios/build/emulator -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/arnoldmendoza/test/platforms/ios/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Users/arnoldmendoza/test/platforms/ios/build/emulator --serialize-diagnostics /var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch.d -c /Users/arnoldmendoza/test/platforms/ios/Test/Test-Prefix.pch -o /var/folders/gd/w2_bfgxd687d8l46g014p08h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Test-Prefix-avyfatfnltfrpqgkupexsicaexff/Test-Prefix.pch.pch36"78E3B6DF-41C2-41BC-8B51-9961827EB3F5-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+
+CTouch /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app
+s420027215.171244
+e420027215.176642
+r1
+xTouch
+x/Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Touch /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app37"[1mTouch[0m build/emulator/Test.app25ec2b4f1b09b941^bd382d4f1b09b941^---0#0#1#--801"[1mTouch[0m build/emulator/Test.app    cd /Users/arnoldmendoza/test/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/user/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Development/adt-bundle/sdk/platform-tools:/Development/adt-bundle/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools:/Applications/adt-bundle-mac-x86_64-20140321/sdk/tools"    /usr/bin/touch -c /Users/arnoldmendoza/test/platforms/ios/build/emulator/Test.app36"E63E263C-7BF0-47C8-A07E-E1890F051523-
+b52DFD205-32B1-4AA1-9955-695F25BD9671
+

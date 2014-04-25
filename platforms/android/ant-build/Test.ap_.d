@@ -1,0 +1,25 @@
+/Users/arnoldmendoza/test/platforms/android/ant-build/Test.ap_ \
+ : /Users/arnoldmendoza/test/platforms/android/res/drawable/icon.png \
+/Users/arnoldmendoza/test/platforms/android/res/drawable-hdpi/icon.png \
+/Users/arnoldmendoza/test/platforms/android/res/drawable-ldpi/icon.png \
+/Users/arnoldmendoza/test/platforms/android/res/drawable-mdpi/icon.png \
+/Users/arnoldmendoza/test/platforms/android/res/drawable-xhdpi/icon.png \
+/Users/arnoldmendoza/test/platforms/android/res/values/strings.xml \
+/Users/arnoldmendoza/test/platforms/android/res/xml/config.xml \
+/Users/arnoldmendoza/test/platforms/android/ant-build/res/drawable/icon.png \
+/Users/arnoldmendoza/test/platforms/android/ant-build/res/drawable-hdpi/icon.png \
+/Users/arnoldmendoza/test/platforms/android/ant-build/res/drawable-ldpi/icon.png \
+/Users/arnoldmendoza/test/platforms/android/ant-build/res/drawable-mdpi/icon.png \
+/Users/arnoldmendoza/test/platforms/android/ant-build/res/drawable-xhdpi/icon.png \
+/Users/arnoldmendoza/test/platforms/android/assets/_where-is-www.txt \
+/Users/arnoldmendoza/test/platforms/android/assets/www \
+/Users/arnoldmendoza/test/platforms/android/assets/www/cordova.js \
+/Users/arnoldmendoza/test/platforms/android/assets/www/cordova_plugins.js \
+/Users/arnoldmendoza/test/platforms/android/assets/www/css \
+/Users/arnoldmendoza/test/platforms/android/assets/www/img \
+/Users/arnoldmendoza/test/platforms/android/assets/www/index.html \
+/Users/arnoldmendoza/test/platforms/android/assets/www/js \
+/Users/arnoldmendoza/test/platforms/android/assets/www/css/index.css \
+/Users/arnoldmendoza/test/platforms/android/assets/www/img/logo.png \
+/Users/arnoldmendoza/test/platforms/android/assets/www/js/index.js \
+/Users/arnoldmendoza/test/platforms/android/ant-build/AndroidManifest.xml \
